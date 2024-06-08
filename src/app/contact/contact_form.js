@@ -105,7 +105,7 @@ export const ContactForm = () => {
           <textarea
             onChange={(e) => setMensaje(e.target.value)}
             name="mensaje"
-            placeholder="Escribe tu mensaje, si es relacionado con una compra no olvides escribir tu id de compra"
+            placeholder="Escribe tu mensaje"
             id="mensaje"
           ></textarea>
         </div>
